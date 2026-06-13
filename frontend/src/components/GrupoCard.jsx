@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://worldcup2026-api-nqtt.onrender.com";
 
 function Bandeira({ url, nome, size = 20 }) {
     if (!url) return <span className="text-sm">🏳️</span>;

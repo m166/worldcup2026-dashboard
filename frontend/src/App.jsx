@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import GrupoCard from "./components/GrupoCard";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://worldcup2026-api-nqtt.onrender.com";
 
 export default function App() {
   const [jogos, setJogos] = useState([]);
